@@ -5,21 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flexbox Example</title>
   <style>
-    .holder {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+  .holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Change to space-evenly */
+  }
 
-    .item {
-      /* Add styles for individual items if needed */
-      width: calc(33.33% - 10px); /* Adjust the width as needed, accounting for margins */
-      margin: 5px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-    }
-  </style>
+  .item {
+    /* Add styles for individual items if needed */
+    width: calc(33.33% - 10px); /* Adjust the width as needed, accounting for margins */
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+</style>
+
 </head>
 <body>
   <div class="holder">
